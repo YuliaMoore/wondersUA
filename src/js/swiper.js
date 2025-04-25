@@ -1,3 +1,20 @@
+document.addEventListener('DOMContentLoaded', function () {
+  document
+    .querySelectorAll('.common-swiper')
+    .forEach((swiperContainer, index) => {
+      const nextEl = swiperContainer.querySelector('.swiper-button-next');
+      const prevEl = swiperContainer.querySelector('.swiper-button-prev');
+
+      new Swiper(swiperContainer, {
+        loop: true,
+        navigation: {
+          nextEl,
+          prevEl,
+        },
+      });
+    });
+});
+
 // const swiper = new Swiper('.swiper', {
 //   speed: 400,
 
@@ -18,16 +35,16 @@
 //   },
 // });
 
-import Swiper from 'swiper';
-// import 'swiper/css';
+// import Swiper from 'swiper';
+// // import 'swiper/css';
 
-const swiper = new Swiper('.swiper', {
-  loop: true,
-  pagination: {
-    el: '.swiper-pagination',
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
+// const swiper = new Swiper('.swiper', {
+//   loop: true,
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+// });
