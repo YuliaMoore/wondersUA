@@ -1,11 +1,13 @@
 <div class="container">
-    <h2 class="title">Our tours</h3>
+    <h2 class="title">Our tours</h2>
 <div class="swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
+
+      <!--slide 1-->
       <div class="swiper-slide tour-slide">
-         <img src="./images/tours/tours1.jpg" alt="">
+         <img src="./images/tours/tours1.jpg" alt="" class="tour-img">
         <h3 class="tours-name">Lake Synevyr and Shipit waterfall</h3>
         <ul>
         <li class="tours-text">Departure from Lviv (07:00) / Stryi (08:00)</li>
@@ -48,7 +50,8 @@
 </div>
       </div>
 
-      <div class="swiper-slide">
+    <!--slide 2-->
+      <div class="swiper-slide tour-slide">
                 
         <img src="./images/tours/tours2.jpg" alt="">
         <h3 class="tours-name">Ancient History & Vibrant Present</h3>
@@ -93,6 +96,52 @@
       <p class="tour-price">  Price: 3000 UAH</p>
 </div>
       </div>
+    <!--slide 3-->
+            <div class="swiper-slide tour-slide">
+         <img src="./images/tours/tours3.jpg" alt="" class="tour-img">
+        <h3 class="tours-name">Black Sea Jewel</h3>
+        <ul>
+        <li class="tours-text">Departure from Odessa (08:00)</li>
+        <li class="tours-text">Primorsky Boulevard (city's scenic walk)</li>
+        <li class="tours-text">Potemkin Steps (historical site and great city view)</li>
+        <li class="tours-text">Odessa Opera and Ballet Theatre (exterior visit)</li>
+        <li class="tours-text">Lunch at a local seafood restaurant</li>
+        <li class="tours-text">Return to Odessa by 20:00</li>
+    </ul>
+    <h4>Included:</h4>
+          <ul>
+            <li class="tour-included__list">
+              <svg class="tour__icons" width="24" height="24">
+                <use href="./images/sprite.svg#icon-bus"></use>
+              </svg>
+              Transfer
+            </li>
+            <li class="tour-included__list">
+              <svg class="tour__icons" width="24" height="24">
+                <use href="./images/sprite.svg#icon-id-card"></use>
+              </svg>
+              Travel insurance
+            </li>
+            <li class="tour-included__list">
+              <svg class="tour__icons" width="24" height="24">
+                <use href="./images/sprite.svg#icon-face"></use>
+              </svg>
+              Professional guide
+            </li>
+            <li class="tour-included__list">
+              <svg class="tour__icons" width="24" height="24">
+                <use href="./images/sprite.svg#icon-ticket"></use>
+              </svg>
+              Travel insurance
+            </li>
+          </ul>
+        </div>
+<div class="book-tour">
+          <button class="button tours-booking">Book</button>
+      <p class="tour-price">  Price: 3500 UAH</p>
+</div>
+      </div>
+
       
     </div>
     <!-- If we need pagination
@@ -106,3 +155,5 @@
   <div class="swiper-scrollbar"></div> -->
   </div>
 </div>
+
+    <script type="module" src="./js/swiper.js"></script>
