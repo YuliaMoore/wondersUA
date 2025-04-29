@@ -1,5 +1,6 @@
 .footer-box {
   display: flex;
+  justify-content: space-between;
   font-family: Jomolhari;
   font-weight: 400;
   font-size: 18px;
@@ -14,4 +15,15 @@
 .footer-menu-list {
   gap: 16px;
   text-align: left;
+  margin-bottom: 16px;
+}
+.footer-contact-list {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  gap: 15px;
+  display: flex;
+  justify-content: flex-end;
 }
