@@ -1,6 +1,6 @@
 .hero {
   background-image: url(../images/hero-desc.jpg);
-  width: 1440px;
+  // width: 1440px;
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -97,29 +97,30 @@
   display: flex;
   flex-direction: row;
   gap: 15px;
-  position: absolute;
-  bottom: 32px;
-  left: 50%;
-  margin-bottom: auto;
-  align-items: center;
-  justify-content: center;
+  // bottom: 32px;
+  // right: 32px;
+  // margin-bottom: auto;
+  // align-items: center;
+
   padding-bottom: 32px;
 
   @media screen and (min-width: 835px) {
     bottom: 64px;
     margin-right: auto;
     flex-direction: column;
-    left: 96%;
+    // left: 96%;
   }
 
   @media screen and (min-width: 1440px) {
     padding-bottom: 100px;
+    right: auto;
   }
 }
 
 .social-links {
-  display: inline;
+  display: flex;
   margin-left: 15px;
+  justify-content: flex-end;
 
   :last-child {
     margin-left: 0px;
