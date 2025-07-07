@@ -91,7 +91,11 @@
         <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-prev">
+          <svg class="swiper-button-prev">
+            <use href="./images/sprite.svg#"></use>
+          </svg>
+        </div>
         <div class="swiper-button-next"></div>
 
         <!-- If we need scrollbar
@@ -119,7 +123,7 @@
 
       const swiper2 = new Swiper('.gallery-swiper', {
         loop: true,
-        slidesPerView: 4,
+        slidesPerView: 4.3,
         spaceBetween: 20,
         navigation: {
           nextEl: '.gallery-swiper .swiper-button-next',
