@@ -22,104 +22,24 @@
     <include src="./partials/hero.html"></include>
     <include src="./partials/about.html"></include>
     <include src="./partials/tours.html"></include>
-    <!-- <include src="./partials/gallery.html"></include> -->
-    <div class="container">
-      <h2 class="title">Gallery</h2>
-      <!-- Slider main container -->
-      <div class="swiper gallery-swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery1-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery2-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery3-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery4-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery5-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery6-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery7-min.jpg"
-              alt=""
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="gallery-img"
-              src="./images/gallery/gallery8-min.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev">
-          <svg class="swiper-button-prev">
-            <use href="./images/sprite.svg#"></use>
-          </svg>
-        </div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar
-  <div class="swiper-scrollbar"></div> -->
-      </div>
-    </div>
-
+    <include src="./partials/gallery.html"></include>
     <include src="./partials/reviews.html"></include>
     <include src="./partials/travel.html"></include>
     <include src="./partials/footer.html"></include>
 
     <script type="module" src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      // const swiper1 = new Swiper('.tours-swiper', {
-      //   loop: true,
-      //   pagination: {
-      //     el: '.tours-swiper .swiper-pagination',
-      //   },
-      //   navigation: {
-      //     nextEl: '.gallery-swiper .swiper-button-next',
-      //     prevEl: '.gallery-swiper .swiper-button-prev',
-      //   },
-      // });
+    <!-- <script>
+      const swiper1 = new Swiper('.tours-swiper', {
+        loop: true,
+        pagination: {
+          el: '.tours-swiper .swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.gallery-swiper .swiper-button-next',
+          prevEl: '.gallery-swiper .swiper-button-prev',
+        },
+      });
 
       const swiper2 = new Swiper('.gallery-swiper', {
         loop: true,
@@ -131,12 +51,12 @@
         },
       });
 
-      // const swiper3 = new Swiper('.reviews-swiper', {
-      //   loop: true,
-      //   pagination: {
-      //     el: '.reviews-swiper .swiper-pagination',
-      //   },
-      // });
-    </script>
+      const swiper3 = new Swiper('.reviews-swiper', {
+        loop: true,
+        pagination: {
+          el: '.reviews-swiper .swiper-pagination',
+        },
+      });
+    </script> -->
   </body>
 </html>
